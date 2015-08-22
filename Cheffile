@@ -1,0 +1,6 @@
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'sprout-elasticsearch', path: '.'
+cookbook 'sprout-base', github: 'pivotal-sprout/sprout-base'
+cookbook 'homebrew'
+cookbook 'java'
